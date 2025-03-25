@@ -1,0 +1,18 @@
+# Kafka Broker Configuration
+KAFKA_BROKERS=rc1a-epkih7i9ae2nnagh.mdb.yandexcloud.net:9091,rc1b-8u1p1fcaj67e9mdl.mdb.yandexcloud.net:9091,rc1d-fo9ea6boqh8b85hb.mdb.yandexcloud.net:9091
+
+# Schema Registry Configuration
+SCHEMA_REGISTRY_URL=https://srnpo859tbeb89jkt51q.schema-registry.yandexcloud.net:443
+SCHEMA_REGISTRY_API_KEY=XXXXX
+
+# Kafka Topic and Subject
+KAFKA_TOPIC=sprint5
+SCHEMA_SUBJECT=json-subject
+
+# Authentication
+KAFKA_USERNAME=registry
+KAFKA_PASSWORD=XXXXXXX
+SSL_CA_LOCATION=/home/nate/Documents/Kafka/sprint5/config/YandexInternalRootCA.crt
+
+# Consumer Group
+KAFKA_CONSUMER_GROUP=sprint5-consumer-group

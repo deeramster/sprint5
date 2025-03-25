@@ -1,0 +1,19 @@
+{
+   "type":"object",
+   "properties":{
+      "id":{
+         "type":"string"
+      },
+      "text":{
+         "type":"string"
+      },
+      "timestamp":{
+         "type":"integer"
+      }
+   },
+   "required":[
+      "id",
+      "text",
+      "timestamp"
+      ]
+}
